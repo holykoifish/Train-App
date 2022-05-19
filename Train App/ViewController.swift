@@ -17,7 +17,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Ask for Authorisation from the User.
+        self.view.backgroundColor = UIColor(red: 0.98, green: 0.95, blue: 0.90, alpha: 1.00)
+           
+            // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
 
         // For use in foreground

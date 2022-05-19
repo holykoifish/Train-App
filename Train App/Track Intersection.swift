@@ -34,7 +34,7 @@ class TrainTrackIntersection: NSObject, MKAnnotation {
         return UIImage(systemName: "tram")!
     }
     var color: UIColor {
-        return .systemGreen
+        return UIColor(red: 0.15, green: 0.31, blue: 0.08, alpha: 1.00)
     }
 }
 

@@ -17,6 +17,7 @@
 		0D77650C2804CEEB008BEB7E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77650B2804CEEB008BEB7E /* SettingsViewController.swift */; };
 		0D77650E2804D98B008BEB7E /* Track Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D77650D2804D98B008BEB7E /* Track Intersection.swift */; };
 		0D7765122804F7E8008BEB7E /* IntersectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7765112804F7E8008BEB7E /* IntersectionViews.swift */; };
+		0DCB9EE12836245D008EEE67 /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB9EE02836245D008EEE67 /* NotificationSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0D77650B2804CEEB008BEB7E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0D77650D2804D98B008BEB7E /* Track Intersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Track Intersection.swift"; sourceTree = "<group>"; };
 		0D7765112804F7E8008BEB7E /* IntersectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntersectionViews.swift; sourceTree = "<group>"; };
+		0DCB9EE02836245D008EEE67 /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,9 @@
 				0D23342D27ADD4BF005DB622 /* SceneDelegate.swift */,
 				0D23342F27ADD4BF005DB622 /* ViewController.swift */,
 				0D7765092804CE95008BEB7E /* ScheduleViewController.swift */,
-				0D23343127ADD4BF005DB622 /* Main.storyboard */,
 				0D77650B2804CEEB008BEB7E /* SettingsViewController.swift */,
+				0D23343127ADD4BF005DB622 /* Main.storyboard */,
+				0DCB9EE02836245D008EEE67 /* NotificationSettingViewController.swift */,
 				0D23343427ADD4C2005DB622 /* Assets.xcassets */,
 				0D23343627ADD4C2005DB622 /* LaunchScreen.storyboard */,
 				0D23343927ADD4C2005DB622 /* Info.plist */,
@@ -156,6 +159,7 @@
 				0D23342C27ADD4BF005DB622 /* AppDelegate.swift in Sources */,
 				0D23342E27ADD4BF005DB622 /* SceneDelegate.swift in Sources */,
 				0D77650C2804CEEB008BEB7E /* SettingsViewController.swift in Sources */,
+				0DCB9EE12836245D008EEE67 /* NotificationSettingViewController.swift in Sources */,
 				0D77650A2804CE95008BEB7E /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2P2LG38375;
+				DEVELOPMENT_TEAM = UBJBVRU367;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Train App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,7 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2P2LG38375;
+				DEVELOPMENT_TEAM = UBJBVRU367;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Train App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

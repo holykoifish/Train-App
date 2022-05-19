@@ -7,12 +7,31 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+   
+    var settings = "Notification"
+   
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
+        cell.textLabel?.text = settings
+        return cell
+    }
+    
 
+    @IBOutlet weak var settingsTable:
+        UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        settingsTable.backgroundColor = UIColor(red: 0.98, green: 0.95, blue: 0.90, alpha: 1.00)
+        self.view.backgroundColor = UIColor(red: 0.98, green: 0.95, blue: 0.90, alpha: 1.00)
         // Do any additional setup after loading the view.
+        settingsTable.dataSource = self
+        settingsTable.delegate = self
     }
     
 
